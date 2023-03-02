@@ -31,7 +31,10 @@ export default class Todo extends Component {
             <input type="text" onInput={this.onInput} />
             <button onClick={this.addTodo} >登録</button>
             <ul>
-                {todos.map((todo, index) => <li key={index}>{todo}
+                {todos.map((todo, index) => 
+                <li key={index}>
+                    タスク{index+1}：
+                    {todo}
                     <button onClick={() => { this.removeTodo(index) }}>削除</button>
                 </li>)}
             </ul>

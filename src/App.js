@@ -1,10 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
 import Todo from './component/Todo'
-
+import RenderInput from './component/RenderInput'
 function App() {
   return (
+  <>
     <Todo></Todo>
+    <RenderInput></RenderInput>
+  </>
+
+
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />

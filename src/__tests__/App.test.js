@@ -1,12 +1,13 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
-// import Todo from './component/Todo'
+import App from '../App';
+// import Todo from '../component/Todo'
 
-jest.mock('./component/Todo', () => 'div');
+jest.mock('../component/Todo', () => 'div');
+// jest.mock(Todo, () => 'div');
 test('renders learn react link', async () => {
 
   render(<App />);
-  console.log(`screen`,screen.debug());
+  // console.log(`screen`,screen.debug());
   // console.log(`findAllByText`,await screen.getByText());
   // expect(screen.getByText()).toBeUndefined();
   expect(screen.queryByTestId('Todo')).toBeNull()

@@ -42,7 +42,7 @@ export default class Todo extends Component {
               data-testid="todo"
             type="text" 
             // onInput={this.onInput} 
-            // placeholder="Enter" 
+            placeholder="Enter"
             value={this.state.name} 
             onChange={this.updateValue}
             />

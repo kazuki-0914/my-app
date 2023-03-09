@@ -18,3 +18,77 @@ exports[`初期表示 1`] = `
   <ul />
 </div>
 `;
+
+exports[`登録、削除 1`] = `
+<div>
+  <input
+    data-testid="todo"
+    onChange={[Function]}
+    placeholder="Enter"
+    type="text"
+    value=""
+  />
+  <button
+    data-testid="submit"
+    onClick={[Function]}
+  >
+    登録
+  </button>
+  <ul>
+    <li>
+      タスク
+      1
+      ：
+      Todo1
+      <button
+        data-testid="delete"
+        onClick={[Function]}
+      >
+        削除
+      </button>
+    </li>
+    <li>
+      タスク
+      2
+      ：
+      <button
+        data-testid="delete"
+        onClick={[Function]}
+      >
+        削除
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`登録、削除 2`] = `
+<div>
+  <input
+    data-testid="todo"
+    onChange={[Function]}
+    placeholder="Enter"
+    type="text"
+    value=""
+  />
+  <button
+    data-testid="submit"
+    onClick={[Function]}
+  >
+    登録
+  </button>
+  <ul>
+    <li>
+      タスク
+      1
+      ：
+      <button
+        data-testid="delete"
+        onClick={[Function]}
+      >
+        削除
+      </button>
+    </li>
+  </ul>
+</div>
+`;

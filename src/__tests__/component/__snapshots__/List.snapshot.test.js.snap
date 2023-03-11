@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`表示 1`] = `
+<div>
+  <table
+    border="1"
+  >
+    <thead>
+      <tr>
+        <th>
+          id
+        </th>
+        <th>
+          userId
+        </th>
+        <th>
+          title
+        </th>
+        <th>
+          completed
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

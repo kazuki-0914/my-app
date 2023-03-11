@@ -23,7 +23,7 @@ export default class Todo extends Component {
         });
     }
     removeTodo = (index) => {
-        const { todos, name } = this.state;
+        const { todos } = this.state;
         this.setState({
             todos: [...todos.slice(0, index), ...todos.slice(index + 1)]
         });

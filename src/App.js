@@ -2,11 +2,20 @@
 import './App.css';
 import Todo from './component/Todo'
 import RenderInput from './component/RenderInput'
+// import List from './component/List'
+import Hello from './component/Hello'
+import User from './component/User'
 function App() {
   return (
   <>
     <Todo></Todo>
     <RenderInput></RenderInput>
+    <hr/>
+    <br/>
+    <Hello />
+    <br/>
+    <User id="123" />
+    {/* <List></List> */}
   </>
 
 
